@@ -34,10 +34,7 @@ build/
 
 #Workspace folder(s)
 /.idea
-/.mvn
 /target
 
 #Workspace file(s)
-mvnw
-mvnw.cmd
 HELP.md
