@@ -8,8 +8,8 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:application-h2.properties")
 public class ProgrammingSpringBootH2DbApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ProgrammingSpringBootH2DbApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ProgrammingSpringBootH2DbApplication.class, args);
+    }
 
 }

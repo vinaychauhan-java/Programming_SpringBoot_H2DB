@@ -1,6 +1,5 @@
 package com.vinay.Programming_SpringBoot_H2DB.domain;
 
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,7 +13,6 @@ import lombok.Setter;
 import org.hibernate.annotations.Immutable;
 
 import static jakarta.persistence.GenerationType.AUTO;
-
 
 @Table(name = "User")
 @Entity

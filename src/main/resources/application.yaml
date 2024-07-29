@@ -1,5 +1,5 @@
 spring:
-  application.name : Programming_SpringBoot-H2DB
+  application.name : Programming_SpringBoot_H2DB
   h2:
     console:
       enabled: true
