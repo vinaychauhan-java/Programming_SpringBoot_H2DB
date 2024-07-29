@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vinay</groupId>
-	<artifactId>Programming_SpringBoot-H2DB</artifactId>
+	<artifactId>Programming_SpringBoot_H2DB</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Programming_SpringBoot-H2DB</name>
+	<name>Programming_SpringBoot_H2DB</name>
 	<description>Learning H2DB using Spring Boot</description>
 	<url/>
 	<licenses>
