@@ -34,7 +34,11 @@ public class UserService {
 
     @Transactional
     public void updateUser(User user) {
+        //Update userData in native query manner.
         userRepository.updateUserData(user.getId(), user.getFirstName(), user.getLastName());
+
+        //SpringJPA based modification of Data-Set
+        //userRepository.save(user);
     }
 
     public void deleteUserById(int userId) {
