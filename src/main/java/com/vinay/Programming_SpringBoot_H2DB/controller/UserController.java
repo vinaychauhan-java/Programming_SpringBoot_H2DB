@@ -70,6 +70,7 @@ public class UserController {
             User existingUser = existingUserOpt.get();
             existingUser.setFirstName(user.getFirstName());
             existingUser.setLastName(user.getLastName());
+            existingUser.setPosts(user.getPosts());
             userService.updateUser(existingUser);
             return new ResponseEntity<>(existingUser, HttpStatus.OK);
         } else {
