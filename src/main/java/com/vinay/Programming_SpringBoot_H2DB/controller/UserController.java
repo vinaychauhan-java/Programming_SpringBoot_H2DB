@@ -53,7 +53,10 @@ public class UserController {
     public ResponseEntity<User> saveUser(@RequestBody User user) {
         try {
             User userObj = userService.saveUser(
-                    User.builder().firstName(user.getFirstName()).lastName(user.getLastName()).build());
+                    User.builder().firstName(user.getFirstName())
+                            .lastName(user.getLastName())
+                            .posts(user.getPosts())
+                            .build());
             return new ResponseEntity<>(userObj, HttpStatus.CREATED);
         } catch (Exception e) {
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
