@@ -18,17 +18,33 @@
 <hr>
 
 ###### Request Body :-
-- POST : `{
-  "firstName": "Ananya",
-  "lastName": "Chauhan"
-}`
-
-- PUT : `{
+- POST :
+  ```json
+  {
+    "firstName": "Ananya",
+    "lastName": "Chauhan",
+    "posts": [
+        {
+            "comment": "Ananya @ Comments - 1"
+        }
+    ]
+  }
+  ```
+- PUT : 
+  ```json
+  {
   "firstName": "Avyaan",
-  "lastName": "Chauhan"
-}`
-
-
+  "lastName": "Chauhan",
+  "posts": [
+    {
+      "comment": "Avyaan @ Comments - 1"
+    },
+    {
+      "comment": "Avyaan @ Comments - 2"
+    }
+    ]
+  }
+  ```
 <br>
 <hr>
 

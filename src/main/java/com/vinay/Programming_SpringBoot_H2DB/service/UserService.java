@@ -2,8 +2,6 @@ package com.vinay.Programming_SpringBoot_H2DB.service;
 
 import com.vinay.Programming_SpringBoot_H2DB.domain.User;
 import com.vinay.Programming_SpringBoot_H2DB.repository.UserRepository;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,9 +14,6 @@ public class UserService {
 
     @Autowired
     UserRepository userRepository;
-
-    @PersistenceContext
-    private EntityManager entityManager;
 
     public List<User> findAllUsers() {
         return userRepository.findAll();
