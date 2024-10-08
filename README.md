@@ -50,3 +50,11 @@
 
 ###### H2-Console Information:-
 - URL : http://localhost:8080/h2-console
+
+<br>
+<hr>
+
+###### Actuator Information:-
+- Health : http://localhost:8080/actuator/health
+- Metrics : http://localhost:8080/actuator/metrics
+- Environment : http://localhost:8080/actuator/env

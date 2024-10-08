@@ -25,3 +25,13 @@ spring:
         format_sql: true
         validator.apply_to_ddl: false
         globally_quoted_identifiers: true
+
+# For Spring Boot Actuator
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "beans"
